@@ -2,14 +2,16 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>Testing</title>
     </head>
 
     <body>
         <header>
+            Big Test
         </header>
 
         <main>
+            This is to test my GitHub repository.
         </main>
         
         <footer>
