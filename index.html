@@ -7,31 +7,30 @@
     <title>Abigail Taylor's Assignment Portal</title>
     <meta name="description"
         content="Abigail Taylor's assignment portal for WDD230: Web Frontend Development at Brigham Young University-Idaho">
-    <link rel="stylesheet" href="index.css">
-    <script defer src="index.jss"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <script defer src="js/index.js"></script>
 </head>
 
 <body>
     <header>
+        <img src="images/profilePic.jpg" alt="Abi Taylor's profile picture">
         <h1>Abigail Taylor</h1>
-        <img src="C:\Users\Abigail\Desktop\BYU Classes\Semester 3\WDD230\wdd230\images\profilePic.jpg"
-            alt="Abi Taylor's profile picture">
     </header>
     <main>
-        <nav>
-            <h3>WDD 230: Assignment Portal</h3>
-            Lesson 02: <li><a href="#">Assignment Title</a></li>
-            Lesson 03: <li><a href="#">Assignment Title</a></li>
-            Lesson 04: <li><a href="#">Assignment Title</a></li>
-        </nav>
+        <h2>WDD 230: Assignment Portal</h2>
+        <ul>
+            <li>Lesson 02: <a href="#">Link</a></li>
+            <li>Lesson 03: <a href="#">Link</a></li>
+            <li>Lesson 04: <a href="#">Link</a> | <a href="#">Link</a></li>
+        </ul>
 
         <!--
             I might add a description of me or something here later.
         -->
     </main>
     <footer>
-        <div>&copy; 2020 | Abigail Taylor | Italy | BYUI Online Learning </div>
-        <div>Last Updated: <span id="lastUpdate">Date</span></div>
+        &copy; <span id="year"></span> | Abigail Taylor | Italy | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+       <br> <span id="lastUpdate">Date</span>
     </footer>
 </body>
 
