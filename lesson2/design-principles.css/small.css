@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bokor&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    padding: 1em;
+}
+
+header {
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    font-family: 'Bokor', cursive;
+}
+
+main {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+img {
+    max-width: 400px;
+}
+
+span {
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    border-top: 1px solid white;
+    margin-top: 2em;
+    padding-top: 10px;
+}
