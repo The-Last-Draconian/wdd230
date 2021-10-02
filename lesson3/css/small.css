@@ -1,0 +1,156 @@
+/* COLOR SCHEME
+white--rgb(253, 253, 253) #ffffff
+yellow--rgb(246, 240, 124) #f6f07c
+light blue--rgb(176,211,230) #b0d3e6
+dark blue--rgb(7, 19, 57) #071339
+
+TYPOGRAPHY
+
+*/
+
+/*------body rules------*/
+body {
+    background-color: rgb(7, 19, 57);
+}
+
+
+/*-------header rules---------*/
+header {
+    background-color: rgb(246, 240, 124);
+    display: flex;
+}
+
+header img {
+    width: 50px;
+    border-radius: 50%;
+    padding: 0 .5rem 0;
+}
+
+header h1 {
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+}
+
+/*----------nav rules-----------*/
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+}
+
+ul li a {
+    display: block;
+    padding-bottom: 0.5rem;
+    text-decoration: none;
+    color: rgb(246, 240, 124);
+    background-color: rgb(7, 19, 57);
+}
+
+ul li.active a {
+    color: rgb(7, 19, 57);
+    background-color: rgb(161, 161, 161);
+}
+
+ul li a:hover {
+    color: rgb(7, 19, 57);
+    background-color: rgb(161, 161, 161);
+}
+
+
+/*--------main rules---------*/
+main {
+    padding-left: 2rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    background-color:rgb(255, 255, 255);
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+main h2 {
+    font-size: 15px;
+    font-family: 'Merriweather', serif;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    border:  2px solid rgb(161, 161, 161);
+}
+
+#typography #sample1 {
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+}
+
+#typography #sample2 {
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+}
+
+#typography #sample3 {
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+}
+
+#typography #sample4, #typography #sample5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+
+
+#color-scheme #sample1 {
+    color: rgb(7, 19, 57);
+    background-color: rgb(246, 240, 124);
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+}
+
+#color-scheme #sample2 {
+    color: rgb(246, 240, 124);
+    background-color: rgb(7, 19, 57);
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+}
+
+#color-scheme #sample3 {
+    color: rgb(7, 19, 57);
+    background-color: rgb(161, 161, 161);
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+}
+
+#color-scheme #sample4 {
+    color: rgb(7, 19, 57);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+}
+
+#color-scheme #sample5 {
+    color: rgb(7, 19, 57);
+    background-color: rgb(246, 240, 124);
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+
+
+
+/*--------footer rules--------*/
+
+footer {
+    padding: 0.5rem;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(246, 240, 124);
+}
