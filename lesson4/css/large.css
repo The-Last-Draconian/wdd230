@@ -1,0 +1,27 @@
+@media only screen and (min-width: 60em) {
+
+
+
+/*----contact rules-----*/
+
+#contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+#contact section:nth-child() {
+    grid-column: 1/2;
+}
+
+#contact section:nth-child(2) {
+    grid-column: 2/3;
+}
+
+#contact section:nth-child(3) {
+    grid-column: 3/5;
+}
+
+
+
+
+}

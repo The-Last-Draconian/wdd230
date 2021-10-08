@@ -1,0 +1,117 @@
+/* COLOR SCHEME
+white--rgb(253, 253, 253) #ffffff
+yellow--rgb(246, 240, 124) #f6f07c
+light blue--rgb(176,211,230) #b0d3e6
+dark blue--rgb(7, 19, 57) #071339
+
+TYPOGRAPHY
+Merriweather
+Poppins
+
+*/
+
+/*------body rules------*/
+body {
+    background-color: rgb(7, 19, 57);
+}
+
+
+/*-------header rules---------*/
+header {
+    background-color: rgb(246, 240, 124);
+    display: flex;
+}
+
+header img {
+    width: 50px;
+    border-radius: 50%;
+    padding: 0 .5rem 0;
+}
+
+header h1 {
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+}
+
+/*----------nav rules-----------*/
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: rgb(246, 240, 124);
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+ul li a {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    color: rgb(246, 240, 124);
+    background-color: rgb(7, 19, 57);
+}
+
+ul li.active a {
+    color: rgb(7, 19, 57);
+    background-color: rgb(161, 161, 161);
+}
+
+ul li a:hover {
+    color: rgb(7, 19, 57);
+    background-color: rgb(161, 161, 161);
+}
+
+
+/*--------main rules---------*/
+main {
+    padding-left: 2rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    background-color:rgb(255, 255, 255);
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+main h2 {
+    font-size: 15px;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+
+
+
+/*--------footer rules--------*/
+
+footer {
+    padding: 0.5rem;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(246, 240, 124);
+}
+
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

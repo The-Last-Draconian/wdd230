@@ -1,0 +1,25 @@
+@media only screen and (min-width: 32.5em) {
+
+/*-----nav rules-----*/
+nav button {
+    display: none;
+}
+
+nav ul.hide {
+    display: flex;
+}
+
+nav ul {
+    display: flex; 
+    font-size: 15px;
+}
+
+
+
+
+nav ul li {
+    flex: 1 1 100%;
+}
+
+
+}

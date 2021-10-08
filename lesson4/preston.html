@@ -17,19 +17,20 @@
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
-        <script defer src="#"></script>
+        <script defer src="js/index.js"></script>
     </head>
 
     <body>
-        <header>
-            <img src="images/#" alt="site logo">
+        <header class="clearfix">
+            <img src="images/logo.png" alt="site logo">
             <h1>Weather My Storm</h1>
             <h2>Some kind of slogan</h2>
             </header>
         <nav>
-            <ul>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="navigation" class="hide">
                 <li><a href="#">Home</a></li>
-                <li><a href="preston.html">Preston</a></li>
+                <li class="active"><a href="preston.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li><a href="#">Storm Center</a></li>
@@ -44,11 +45,58 @@
             
             <h2>Five Day Forecast</h2>
             <section class="table">
-                
+                <div id="day1">
+                    <h4>Day</h4>
+                    <img src="images/#" alt="icon">
+                    <span>Temp&deg;</span>
+                </div>
+                <div id="day2">
+                    <h4>Day</h4>
+                    <img src="images/#" alt="icon">
+                    <span>Temp&deg;</span>
+                </div>
+                <div id="day3">
+                    <h4>Day</h4>
+                    <img src="images/#" alt="icon">
+                    <span>Temp&deg;</span>
+                </div>
+                <div id="day4">
+                    <h4>Day</h4>
+                    <img src="images/#" alt="icon">
+                    <span>Temp&deg;</span>
+                </div>
+                <div id="day5">
+                    <h4>Day</h4>
+                    <img src="images/#" alt="icon">
+                    <span>Temp&deg;</span>
+                </div>
             </section>
+
+            <h2>Article Title</h2>
+            <img src="images/#" alt="article image">
+            <p>On this day in history, </p>
+            
+            <h2>Contact Us</h2>
+            <div id="contact">
+                <section>
+                    <h3>Address:</h3>
+                    <p>The Weather Center
+                    <br>123 Main Street
+                    <br>Franklin, MI 87654</p>
+                </section>
+                <section>
+                    <h3>Phone:</h3>
+                    <p>(801) 555-1234</p>
+                    <h3>Email:</h3>
+                    <p>contact@yoururl.com</p>
+                </section>
+                <section>
+                    <img src="images/#" alt="map of town">
+                </section>
+            </div>
         </main>
         <footer>
-            &copy; Abigail Taylor | <span class="date">date</span>
+            &copy; Abigail Taylor | <span id="date">date</span>
         </footer>
 
     </body>
