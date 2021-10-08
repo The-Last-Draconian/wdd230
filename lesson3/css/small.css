@@ -5,6 +5,8 @@ light blue--rgb(176,211,230) #b0d3e6
 dark blue--rgb(7, 19, 57) #071339
 
 TYPOGRAPHY
+Merriweather
+Poppins
 
 */
 
@@ -37,13 +39,14 @@ nav ul {
     list-style-type: none;
     text-align: center;
     padding-left: 0;
+    margin: 0;
     font-family: 'Merriweather', serif;
     font-size: 12px;
 }
 
 ul li a {
     display: block;
-    padding-bottom: 0.5rem;
+    padding: 16px;
     text-decoration: none;
     color: rgb(246, 240, 124);
     background-color: rgb(7, 19, 57);
@@ -78,6 +81,8 @@ main h2 {
 
 table {
     width: 100%;
+    border-collapse: collapse;
+    
 }
 
 table td {
