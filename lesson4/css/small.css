@@ -19,17 +19,26 @@ body {
 /*-------header rules---------*/
 header {
     background-color: rgb(246, 240, 124);
-    display: flex;
+    display: block;
 }
 
 header img {
-    width: 50px;
+    max-width: 50px;
+    float: left;
     border-radius: 50%;
-    padding: 0 .5rem 0;
+    padding: 2%;
 }
 
 header h1 {
-    font-size: 18px;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    position: relative;
+    top: 10px;
+    
+}
+
+header h2 {
+    font-size: 12px;
     font-family: 'Merriweather', serif;
 }
 
@@ -86,13 +95,53 @@ main {
     font-family: 'Poppins', sans-serif;
 }
 
-main h2 {
-    font-size: 15px;
+main img {
+    display: block;
+    width: 100%;
+}
+
+main h1 {
+    font-size: 20px;
     font-family: 'Merriweather', serif;
+}
+
+main h2 {
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+}
+
+main h3 {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+/*-----weather summary-----*/
+.weather-summary {
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(161, 161, 161);
+    display: block;
+    max-width: 50%;
+    padding: 10px;
+
 }
 
 
 
+
+/*----forecast rules----*/
+#forecast, .table {
+    display: none;
+}
+
+.table div {
+    text-align: center;
+}
+
+
+
+/*------contact rules----*/
 
 
 

@@ -1,5 +1,28 @@
 @media only screen and (min-width: 32.5em) {
 
+/*------body rules------*/
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/*-------header rules---------*/
+
+header img {
+    max-width: 100px;
+    padding: 10px;
+
+}
+
+header h1 {
+    font-size: 30px;
+    top: 20px;
+}
+
+
+
+
 /*-----nav rules-----*/
 nav button {
     display: none;
@@ -16,10 +39,94 @@ nav ul {
 
 
 
-
 nav ul li {
     flex: 1 1 100%;
 }
 
+
+
+/*--------main rules---------*/
+
+
+.article-img {
+    max-width: 200px;
+    float: right;
+    margin: 0 2% 2% 0;
+}
+
+.article {
+    margin-bottom: 10rem;
+}
+
+
+
+
+
+
+
+/*-----weather summary-----*/
+
+.weather-summary {
+    position: relative; 
+    bottom: 500px;
+    left: 20px;
+    max-width: 200px;
+    font-size: 18px;
+}
+
+
+
+/*----forecast rules----*/
+#forecast, .table {
+    display: flex;
+    margin-right: 2%;
+}
+
+.table div {
+    border: 1px solid rgb(246, 240, 124);
+    flex: 1 1 100%;
+}
+
+
+/*------contact rules----*/
+
+#contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    margin: 0 2%;
+}
+
+#contact section:nth-child() {
+    grid-column: 1/2;
+}
+
+#contact section:nth-child(2) {
+    grid-column: 2/3;
+}
+
+#contact img {
+    grid-column: 3/5;
+}
+
+
+/*--------footer rules--------*/
+
+footer {
+    padding: 0.5rem;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(246, 240, 124);
+}
+
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 }
