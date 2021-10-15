@@ -98,7 +98,6 @@ main {
 
 main img {
     display: block;
-    width: 100%;
 }
 
 main h1 {
@@ -117,13 +116,37 @@ main h3 {
     font-weight: bold;
 }
 
+/*---reminder---*/
+#message {
+    color: #071339;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px orangered;
+    padding: 2%;
+}
+div.showme {
+    display: block;
+}
+
+div.hideme {
+    display: none;
+}
+
+
+/*------hero image-------*/
+figure.hero-img img {
+    width: 100%;
+    height: auto;
+}
+
+
+
 /*-----weather summary-----*/
 .weather-summary {
     color: #071339;
     background-color: #b0d3e6;
-    max-width: 50%;
+    width: 100%;
     padding: 3%;
-    box-shadow: 0 0 10px #ffffff;
+    margin: 0 auto;
 }
 
 
@@ -138,6 +161,12 @@ main h3 {
     text-align: center;
 }
 
+
+/*----------article rules---------*/
+figure.article-img img {
+    width: 100%;
+    height: auto;
+}
 
 
 /*------contact rules----*/
@@ -155,7 +184,10 @@ footer {
     background-color: #f6f07c;
 }
 
-
+figure.map-img img {
+    width: 100%;
+    height: auto;
+}
 
 
 .clearfix:after {

@@ -74,7 +74,8 @@ nav ul li {
     position: absolute;
     top: 10%;
     left: 10%;
-    max-width: 30%;
+    width: 30%;
+    box-shadow: 0 0 10px #ffffff;
 }
 
 
