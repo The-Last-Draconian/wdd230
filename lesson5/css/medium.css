@@ -48,10 +48,10 @@ nav ul li {
 /*--------main rules---------*/
 
 
-.article-img {
-    max-width: 200px;
+figure.article-img img {
     float: right;
-    margin: 0 2% 2% 0;
+    width: 50%;
+    height: auto;
 }
 
 .article {
@@ -96,7 +96,7 @@ nav ul li {
 #contact {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
-    margin: 0 2%;
+
 }
 
 #contact section:nth-child() {

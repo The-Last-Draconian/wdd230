@@ -96,6 +96,10 @@ main {
     font-family: 'Poppins', sans-serif;
 }
 
+main figure {
+    margin: 0;
+}
+
 main img {
     display: block;
 }
