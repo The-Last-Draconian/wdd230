@@ -23,7 +23,8 @@ header {
 }
 
 header img {
-    max-width: 50px;
+    width: 10%;
+    height: auto;
     float: left;
     border-radius: 50%;
     padding: 2%;
@@ -116,7 +117,7 @@ main h2 {
 
 main h3 {
     font-size: 15px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Merriweather', sans-serif;
     font-weight: bold;
 }
 
@@ -148,9 +149,10 @@ figure.hero-img img {
 .weather-summary {
     color: #071339;
     background-color: #b0d3e6;
-    width: 100%;
+    width: 94%;
     padding: 3%;
     margin: 0 auto;
+    margin-bottom: 20%;
 }
 
 
@@ -172,8 +174,18 @@ figure.article-img img {
     height: auto;
 }
 
+p.article {
+    margin-bottom: 20%;
+
+}
+
 
 /*------contact rules----*/
+figure.map-img img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10%;
+}
 
 
 
@@ -188,10 +200,6 @@ footer {
     background-color: #f6f07c;
 }
 
-figure.map-img img {
-    width: 100%;
-    height: auto;
-}
 
 
 .clearfix:after {

@@ -1,5 +1,12 @@
 @media only screen and (min-width: 32.5em) {
 
+
+/* COLOR SCHEME
+white--rgb(253, 253, 253) #ffffff
+yellow--rgb(246, 240, 124) #f6f07c
+light blue--rgb(176,211,230) #b0d3e6
+dark blue--rgb(7, 19, 57) #071339 */    
+
 /*------body rules------*/
 body {
     max-width: 1000px;
@@ -10,7 +17,6 @@ body {
 /*-------header rules---------*/
 
 header img {
-    max-width: 100px;
     padding: 10px;
 
 }
@@ -47,19 +53,25 @@ nav ul li {
 
 /*--------main rules---------*/
 
+main h1 {
+    font-size: 30px;
+}
+
+main h2 {
+    font-size: 22px;
+}
+
 
 figure.article-img img {
     float: right;
     width: 50%;
     height: auto;
+    margin: 0 0 2% 2%;
 }
 
-.article {
-    margin-bottom: 10rem;
+p.article {
+    margin-bottom: 10%;
 }
-
-
-
 
 
 
@@ -68,12 +80,13 @@ figure.article-img img {
 
 .herodiv {
     position: relative;
+    margin-bottom: 10%;
 }
 
 .weather-summary {
     position: absolute;
     top: 10%;
-    left: 10%;
+    left: 8%;
     width: 30%;
     box-shadow: 0 0 10px #ffffff;
 }
@@ -85,11 +98,27 @@ figure.article-img img {
     margin-right: 2%;
 }
 
-.table div {
-    border: 1px solid rgb(246, 240, 124);
-    flex: 1 1 100%;
+.table {
+    margin-bottom: 10%;
 }
 
+.table div {
+    border: 5px solid #f6f07c;
+    flex: 1 1 100%;
+    color: #ffffff;
+    background-color: #071339;
+    padding: 2%;
+}
+
+.table div span {
+    font-size: 15px;
+}
+
+.table div img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
 
 /*------contact rules----*/
 
@@ -109,18 +138,14 @@ figure.article-img img {
 
 #contact img {
     grid-column: 3/4;
+    margin-left: 10px;
 }
 
 
 /*--------footer rules--------*/
 
 footer {
-    padding: 0.5rem;
-    font-size: 12px;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    margin: 0 auto;
-    background-color: rgb(246, 240, 124);
+    font-size: 15px;
 }
 
 
