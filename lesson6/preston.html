@@ -47,10 +47,9 @@
                 </figure>
                 <section class="weather-summary">
                     <h3>Weather Summary</h3>
-                    <p>High: <span>65</span>&deg;</p>
-                    <p>Low: <span>40</span>&deg;</p>
-                    <p>Wind Speed: <span>15</span>mph</p>
-                    <p>Wind Chill: <span></span>&deg;</p>
+                    <p>High: <span id="temp">49</span>&deg;F</p>
+                    <p>Wind Speed: <span id="speed">15</span> mph</p>
+                    <p>Wind Chill: <span id="windchill"></span></p>
                 </section>
             </div>  
 
@@ -133,6 +132,7 @@
         <script>    
             WebFont.load({google: {families: ["Merriweather", "Poppins"]}});
         </script>
+        <script src="js/windchill.js"></script>
     </body>
 
 
