@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Weather My Storm | Preston</title>
+        <meta name="description" content="Contains information for the city Preston.">
+        
+        
+
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <script defer src="js/index.js"></script>
+    </head>
+
+    <body>
+        <header class="clearfix">
+            <img src="images/logo.png" alt="site logo" width="120" height="120">
+            <h1>Weather My Storm</h1>
+            <h2>The center for weather forecasts and information</h2>
+            </header>
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="navigation" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="preston.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div id="message">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
+            <h1>Preston</h1>
+            <div class="herodiv">  
+                <figure class="hero-img">
+                    <img src="images/hero.jpg" alt="hero image" width="856" height="571">
+                </figure>
+                <section class="weather-summary">
+                    <h3>Weather Summary</h3>
+                    <p>High: <span>65</span>&deg;</p>
+                    <p>Low: <span>40</span>&deg;</p>
+                    <p>Wind Speed: <span>15</span>mph</p>
+                    <p>Wind Chill: <span></span>&deg;</p>
+                </section>
+            </div>  
+
+            <h2 id="forecast">Five Day Forecast</h2>
+            <section class="table">
+                <div>
+                    <h3>Monday</h3>
+                    <img src="images/sunny.png" alt="sunny icon" width="137" height="137">
+                    <span>65&deg;</span>
+                </div>
+                <div>
+                    <h3>Tuesday</h3>
+                    <img src="images/cloudy.png" alt="cloudy icon" width="137" height="137">
+                    <span>58&deg;</span>
+                </div>
+                <div>
+                    <h3>Wednesday</h3>
+                    <img src="images/partly-cloudy.png" alt="partly cloudy icon" width="137" height="137">
+                    <span>52&deg;</span>
+                </div>
+                <div>
+                    <h3>Thursday</h3>
+                    <img src="images/snowy.png" alt="snowy icon" width="137" height="137">
+                    <span>40&deg;</span>
+                </div>
+                <div>
+                    <h3>Friday</h3>
+                    <img src="images/rainy.png" alt="rainy icon" width="137" height="137">
+                    <span>49&deg;</span>
+                </div>
+            </section>
+
+            <h2>Bonfire Night</h2>
+            <figure class="article-img">
+                <img src="images/bonfire.jpg" alt="article image" width="468" height="351">
+            </figure>
+            <p class="article">On this day in history, Guy Fawkes tried to blow up Parliament.
+                He was caught under the building, surrounded by gunpowder,
+                holding a lit match. A few seconds later, and the entire building
+                would have been blown up. Now, Bonfire Night is celebrated with fireworks and bonfires. Schoolchildren
+                memorize a chant: <em>Remember, remember, the fifth of
+                    November / The gunfire treason and plot.</em> 
+                <br>On this day in history, Guy Fawkes tried to blow up Parliament.
+                He was caught under the building, surrounded by gunpowder,
+                holding a lit match. A few seconds later, and the entire building
+                would have been blown up. Now, Bonfire Night is celebrated with fireworks and bonfires. Schoolchildren
+                memorize a chant: <em>Remember, remember, the fifth of
+                    November / The gunfire treason and plot.</em>
+                <br>On this day in history, Guy Fawkes tried to blow up Parliament.
+                He was caught under the building, surrounded by gunpowder,
+                holding a lit match. A few seconds later, and the entire building
+                would have been blown up. Now, Bonfire Night is celebrated with fireworks and bonfires. Schoolchildren
+                memorize a chant: <em>Remember, remember, the fifth of
+                    November / The gunfire treason and plot.</em>
+            </p>
+            
+            <h2>Contact Us</h2>
+            <div id="contact">
+                <section>
+                    <h3>Address:</h3>
+                    <p>The Weather Center
+                    <br>123 Main Street
+                    <br>Franklin, MI 87654</p>
+                </section>
+                <section>
+                    <h3>Phone:</h3>
+                    <p>(801) 555-1234</p>
+                    <h3>Email:</h3>
+                    <p>contact@yoururl.com</p>
+                </section>
+                <figure class="map-img">
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96140.9628144354!2d-104.83744480672122!3d41.1475112883646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876f38762e73ef93%3A0xb10a30418f972d2b!2sCheyenne%2C%20WY%2C%20USA!5e0!3m2!1sen!2sit!4v1634980029334!5m2!1sen!2sit" width="468" height="311" style="border:0;" loading="lazy"></iframe>
+                </figure>
+            </div>
+        </main>
+        <footer>
+            &copy; Abigail Taylor | <span id="date">date</span>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>    
+            WebFont.load({google: {families: ["Merriweather", "Poppins"]}});
+        </script>
+    </body>
+
+
+
+
+
+
+    </html>
