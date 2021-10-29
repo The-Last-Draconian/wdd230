@@ -1,0 +1,61 @@
+@media only screen and (min-width: 60em) {
+
+
+
+        /*------body rules------*/
+        
+        
+        /*-------header rules---------*/
+        
+        
+        header h1 {
+            font-size: 50px;
+        }
+        
+        
+        
+        
+        /*-----nav rules-----*/
+ 
+        /*--------main rules---------*/
+        
+        main {
+            font-size: 12pt;
+        }
+        
+        main h1 {
+            font-size: 30px;
+        }
+        
+        main h2 {
+            font-size: 30px;
+        }
+
+        main h3 {
+            font-size: 20px;
+        }
+        
+        
+        /*-----weather summary-----*/
+        
+        
+        
+        
+        /*----forecast rules----*/
+        
+        
+        /*------contact rules----*/
+        
+
+        
+        
+        /*--------footer rules--------*/
+        
+        
+        
+        
+        
+        
+
+
+}
