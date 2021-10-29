@@ -7,15 +7,14 @@ picture {
     display: block;
 }
 
-/*picture img[data-src] {
+picture img[data-src] {
     filter: blur(0.2rem);
-  }*/
+  }
   
 picture img {
     display: block;
     padding: 0;
     margin: 0;
-    /*filter: blur(0rem);
-    transition: all 0.5s;
-    ^can't get this blur to work!!!*/
+    filter: blur(0rem);
+    transition: filter 0.5s;
 }     
