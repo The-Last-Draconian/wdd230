@@ -212,6 +212,7 @@ section.gallery {
 
 section.gallery figure {
     border: 10px double #b0d3e6;
+    background-color: #071339;
 }
 
 section.gallery figure:hover {
@@ -221,6 +222,7 @@ section.gallery figure:hover {
 
 section.gallery figcaption {
     font-size: 10px;
+    color: #ffffff;
     padding: 2%;
     width: 300px;
 }
