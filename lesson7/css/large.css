@@ -58,6 +58,12 @@ section.gallery figure {
     border: 8px double #b0d3e6;
 }
 
+section.gallery figure:hover {
+    border-color: #f6f07c;
+    box-shadow: 4px 4px 7px #071339;
+}
+
+
 
 
         

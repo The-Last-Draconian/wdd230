@@ -215,11 +215,6 @@ section.gallery figure {
     background-color: #071339;
 }
 
-section.gallery figure:hover {
-    border-color: #f6f07c;
-    box-shadow: 4px 4px 7px #071339;
-}
-
 section.gallery figcaption {
     font-size: 10px;
     color: #ffffff;
