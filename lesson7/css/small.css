@@ -104,8 +104,15 @@ main figure {
     margin: 0;
 }
 
+main img[data-src] {
+    filter: blur(0.2rem);
+}
+
 main img {
     display: block;
+    padding: 0;
+    filter: blur(0rem);
+    transition: filter 0.5s;
 }
 
 main h1 {
@@ -193,6 +200,30 @@ figure.map-img iframe {
 }
 
 
+
+
+
+/*-------gallery grid rules------*/
+section.gallery {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+}
+
+section.gallery figure {
+    border: 10px double #b0d3e6;
+}
+
+section.gallery figure:hover {
+    border-color: #f6f07c;
+    box-shadow: 4px 4px 7px #071339;
+}
+
+section.gallery figcaption {
+    font-size: 10px;
+    padding: 2%;
+    width: 300px;
+}
 
 /*--------footer rules--------*/
 

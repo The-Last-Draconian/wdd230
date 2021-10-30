@@ -2,60 +2,70 @@
 
 
 
-        /*------body rules------*/
+/*------body rules------*/
         
         
-        /*-------header rules---------*/
+/*-------header rules---------*/
         
         
-        header h1 {
-            font-size: 50px;
-        }
+header h1 {
+    font-size: 50px;
+}
         
         
         
         
-        /*-----nav rules-----*/
+/*-----nav rules-----*/
  
-        /*--------main rules---------*/
+/*--------main rules---------*/
         
-        main {
-            font-size: 12pt;
-        }
+main {
+    font-size: 12pt;
+}
         
-        main h1 {
-            font-size: 30px;
-        }
+main h1 {
+    font-size: 30px;
+}
         
-        main h2 {
-            font-size: 30px;
-        }
+main h2 {
+    font-size: 30px;
+}
 
-        main h3 {
-            font-size: 20px;
-        }
+main h3 {
+    font-size: 20px;
+}
         
         
-        /*-----weather summary-----*/
-        
-        
-        
-        
-        /*----forecast rules----*/
-        
-        
-        /*------contact rules----*/
-        
-
-        
-        
-        /*--------footer rules--------*/
+/*-----weather summary-----*/
         
         
         
         
+/*----forecast rules----*/
         
+        
+/*------contact rules----*/
         
 
+
+/*-------gallery grid rules------*/
+section.gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8px;
+}
+
+section.gallery figure {
+    border: 8px double #b0d3e6;
+}
+
+
+
+        
+/*--------footer rules--------*/
+        
+        
+        
+        
+        
 
 }
