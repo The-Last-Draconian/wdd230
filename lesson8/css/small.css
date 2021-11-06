@@ -129,10 +129,12 @@ main h2 {
 
 main h3 {
     font-size: 15px;
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Merriweather', serif;
     font-weight: bold;
     font-weight: 700;
 }
+
+
 
 /*---reminder---*/
 #message {
@@ -221,6 +223,101 @@ section.gallery figcaption {
     padding: 2%;
     width: 300px;
 }
+
+
+/*--------form rules---------*/
+form fieldset {
+    margin: 2rem 0;
+    border: 5px double #b0d3e6;
+    padding: .5rem 4%;
+}
+
+form legend {
+    margin: 0 1rem;
+    padding: 0.5rem;
+    font-size: 15px;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: bold;
+    font-weight: 700;
+}
+
+form label.top, form div {
+    display: block;
+    margin-top: 2rem;
+    font-size: 15px;
+}
+
+form label.top input:required {
+    border-left: 6px double red;
+}
+
+form label.top input:required:valid {
+    border-left: 6px double #f6f07c;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #071339;
+    padding: .75rem;
+    margin-top: .5rem;
+    width: 100%;
+    max-width: 20rem;
+}
+
+form label#severity {
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+    max-width: 20rem;
+    margin-top: 2rem;
+}
+
+form label#severity input {
+    display: block;
+    width: 100%;
+    max-width: 20rem;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem;
+    color: #071339;
+}
+
+form textarea {
+    display: block;
+    margin-top: .5rem;
+    width: 100%;
+    height: 10rem;
+    max-width: 20rem;
+}
+
+form input.submitButton {
+    display: block;
+    border: none;
+    background-color: #071339;
+    color: #f6f07c;
+    padding: .75rem 1.5rem;
+    margin-bottom: 5%;
+    width: 100%;
+    max-width: 20rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+form input.submitButton:hover {
+    background-color: #b0d3e6;
+    color: #071339;
+
+}
+
+
+
+
+
+
 
 /*--------footer rules--------*/
 
