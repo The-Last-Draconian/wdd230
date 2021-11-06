@@ -1,0 +1,242 @@
+/* COLOR SCHEME
+white--rgb(253, 253, 253) #ffffff
+yellow--rgb(246, 240, 124) #f6f07c
+light blue--rgb(176,211,230) #b0d3e6
+dark blue--rgb(7, 19, 57) #071339
+
+TYPOGRAPHY
+Merriweather weight 700
+Poppins
+
+*/
+
+/*------body rules------*/
+body {
+    background-color: #071339;
+}
+
+
+/*-------header rules---------*/
+header {
+    background-color: #f6f07c;
+    display: block;
+}
+
+header img {
+    width: 10%;
+    height: auto;
+    float: left;
+    border-radius: 50%;
+    padding: 2%;
+}
+
+header h1 {
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    position: relative;
+    top: 10px;
+    
+}
+
+header h2 {
+    font-size: 12px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+/*----------nav rules-----------*/
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #f6f07c;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+ul li a {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    color: #f6f07c;
+    background-color: #071339;
+}
+
+ul li.active a {
+    color: #071339;
+    background-color: #b0d3e6;
+}
+
+ul li a:hover {
+    color: #071339;
+    background-color: #b0d3e6;
+}
+
+
+/*--------main rules---------*/
+main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    background-color:#ffffff;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+main figure {
+    margin: 0;
+}
+
+main img[data-src] {
+    filter: blur(0.2rem);
+}
+
+main img {
+    display: block;
+    padding: 0;
+    filter: blur(0rem);
+    transition: filter 0.5s;
+}
+
+main h1 {
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+main h2 {
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+main h3 {
+    font-size: 15px;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: bold;
+    font-weight: 700;
+}
+
+/*---reminder---*/
+#message {
+    color: #071339;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px orangered;
+    padding: 2%;
+}
+div.showme {
+    display: block;
+}
+
+div.hideme {
+    display: none;
+}
+
+
+/*------hero image-------*/
+figure.hero-img img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*-----weather summary-----*/
+.weather-summary {
+    color: #071339;
+    background-color: #b0d3e6;
+    width: 94%;
+    padding: 3%;
+    margin: 0 auto;
+    margin-bottom: 20%;
+}
+
+
+
+
+/*----forecast rules----*/
+#forecast, .table {
+    display: none;
+}
+
+.table div {
+    text-align: center;
+}
+
+
+/*----------article rules---------*/
+figure.article-img img {
+    width: 100%;
+    height: auto;
+}
+
+p.article {
+    margin-bottom: 20%;
+
+}
+
+
+/*------contact rules----*/
+figure.map-img iframe {
+    margin-bottom: 10%;
+    padding-left: 0;
+}
+
+
+
+
+
+/*-------gallery grid rules------*/
+section.gallery {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+}
+
+section.gallery figure {
+    border: 10px double #b0d3e6;
+    background-color: #071339;
+}
+
+section.gallery figcaption {
+    font-size: 10px;
+    color: #ffffff;
+    padding: 2%;
+    width: 300px;
+}
+
+/*--------footer rules--------*/
+
+footer {
+    padding: 0.5rem;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #f6f07c;
+}
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Weather My Storm | Gallery</title>
+        <meta name="description" content="Contains images of weather phenomena.">
+        
+        
+
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <script defer src="js/index.js"></script>
+    </head>
+
+    <body>
+        <header class="clearfix">
+            <img src="images/logo.png" alt="site logo" width="120" height="120">
+            <h1>Weather My Storm</h1>
+            <h2>The center for weather forecasts and information</h2>
+            </header>
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="navigation" class="hide">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li class="active"><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1>Course Proposal Application</h1>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                <legend>Applicant Information</legend>
+                    <label class="top">Full Name* <input type="text" name="fullname" required></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>    
+                    <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                    <label class="top">Website <input type="url" name="url" placeholder="http://"></label>
+                </fieldset>
+        
+                <fieldset>
+                <legend>Course Information</legend>
+                    <label class="sbs"><input type="radio" name="audience" value="beginner"> Beginner</label>
+                    <label class="sbs"><input type="radio" name="audience" value="intermediate"> Intermediate</label>
+                    <label class="sbs"><input type="radio" name="audience" value="advanced"> Advanced</label>
+        
+                    <div>Software Needed</div>
+                    <label class="sbs"><input type="checkbox" name="editing" value="yes"> Photo Editor</label>
+                    <label class="sbs"><input type="checkbox" name="code" value="yes"> Coding</label>
+                    <label class="sbs"><input type="checkbox" name="process" value="yes"> Preprocesser</label>
+                    <label class="sbs"><input type="checkbox" name="client" value="yes"> FTP Client</label>
+                </fieldset>
+        
+                <fieldset>
+                <legend>Funding</legend>
+                    <label class="top">Anticipated Completion Date<input type="date" name="completeDate"></label>
+                    <label class="top">Course Subject
+                        <select name="subject">
+                        <option value="">Please Select &#9662;</option>
+                        <option value="software">Software Development</option>
+                        <option value="creative">Creative Professional</option>
+                        <option value="info">Information Technology</option>
+                        <option value="data">Data Professional</option>
+                        <option value="construction">Construction</option>
+                        <option value="manufacturing">Manufacturing</option>
+                        <option value="business">Business Professional</option>
+                        </select>
+                    </label>
+                    <label class="top">How Many Authors<input type="number" name="authors"></label>
+                </fieldset>
+        
+                <input class="submitBtn" type="submit" value="Propose My Course">
+            </form>
+        </main>
+        <footer>
+            &copy; Abigail Taylor | <span id="date">date</span>
+            <br> <span id="last-visit">Last visit</span>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>    
+            WebFont.load({google: {families: ["Merriweather", "Poppins"]}});
+        </script>
+    </body>
+
+
+
+
+
+
+    </html>
