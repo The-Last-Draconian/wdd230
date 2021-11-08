@@ -128,7 +128,7 @@ p.article {
 
 }
 
-#contact section:nth-child() {
+#contact section:nth-child(1) {
     grid-column: 1/2;
 }
 

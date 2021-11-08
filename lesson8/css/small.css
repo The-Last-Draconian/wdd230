@@ -280,6 +280,18 @@ form label#severity input {
     max-width: 20rem;
 }
 
+form span#ratingvalue {
+    display: inline-block;
+    text-align: center;
+    background-color: #071339;
+    color: #ffffff;
+    margin-top: 2rem;
+    padding: .5rem;
+    width: 1rem;
+    height: 1rem;
+    border: 5px double #ffffff;
+}
+
 form label.sbs {
     display: block;
     padding: .75rem;
