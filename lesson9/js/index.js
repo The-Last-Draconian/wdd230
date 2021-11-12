@@ -21,8 +21,9 @@ let element = document.getElementById("message");
         element.classList.add("hideme");
     }*/
 
-/* Last Visited code */
 
+
+//Last Visited code
 localStorage.setItem("lastDate", day);
 let lastDate = localStorage.getItem("lastDate");
 let lastVisit = day - lastDate;
@@ -79,4 +80,3 @@ function selectResponse() {
 	s.textContent = sel.value;
 	
 }
-
