@@ -1,0 +1,77 @@
+@media only screen and (min-width: 60em) {
+
+
+
+/*------body rules------*/
+        
+        
+/*-------header rules---------*/
+        
+        
+header h1 {
+    font-size: 50px;
+}
+        
+        
+        
+        
+/*-----nav rules-----*/
+ 
+/*--------main rules---------*/
+        
+main {
+    font-size: 12pt;
+}
+        
+main h1 {
+    font-size: 30px;
+}
+        
+main h2 {
+    font-size: 30px;
+}
+
+main h3 {
+    font-size: 20px;
+}
+        
+        
+/*-----weather summary-----*/
+        
+        
+        
+        
+/*----forecast rules----*/
+        
+        
+/*------contact rules----*/
+        
+
+
+/*-------gallery grid rules------*/
+section.gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8px;
+}
+
+section.gallery figure {
+    border: 8px double #b0d3e6;
+}
+
+section.gallery figure:hover {
+    border-color: #f6f07c;
+    box-shadow: 4px 4px 7px #071339;
+}
+
+
+
+
+        
+/*--------footer rules--------*/
+        
+        
+        
+        
+        
+
+}
