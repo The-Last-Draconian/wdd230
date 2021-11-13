@@ -88,11 +88,27 @@ ul li a:hover {
 }
 
 
+/*------hero image-------*/
+
+div.herodiv {
+    margin-left: -2rem;
+    margin-right: -2rem;
+    padding: 0;
+}
+
+figure.hero-img img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+
+
 /*--------main rules---------*/
 main {
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 5px;
     padding-bottom: 5px;
     margin: 0 auto;
     background-color:#ffffff;
@@ -152,12 +168,74 @@ div.hideme {
 }
 
 
-/*------hero image-------*/
-figure.hero-img img {
-    width: 100%;
-    height: auto;
+/*---------Town Cards--------*/
+
+div.cards {
+    text-align: center;
+    padding: 2%;
 }
 
+div.cards section {
+    background-color: #071339;
+    border: 5px solid #f6f07c;
+    padding: 2%;
+}
+
+div.cards h2 {
+    color: #ffffff;
+}
+
+div.cards p {
+    color: #ffffff;
+    font-style: italic;
+}
+
+div.cards section div {
+    background-color: #ffffff;
+    border: 10px double #071339;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 2%;
+
+}
+
+div.cards section div p {
+ color: black;
+ font-style: normal;
+}
+
+div.cards img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+/*---------home buttons----------*/
+div.link a {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #071339;
+    border: 5px double #f6f07c;
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 20%;
+}
+
+div.link a:hover {
+    color: #071339;
+    background-color: #f6f07c;
+    border: 5px double #071339;
+    box-shadow: 0px 0px 6px #071339;
+}
 
 
 /*-----weather summary-----*/
@@ -191,14 +269,15 @@ figure.article-img img {
 
 p.article {
     margin-bottom: 20%;
-
 }
 
 
 /*------contact rules----*/
 figure.map-img iframe {
+    width: 100%;
     margin-bottom: 10%;
     padding-left: 0;
+    margin-right: 2rem;
 }
 
 
