@@ -173,6 +173,7 @@ div.hideme {
 div.cards {
     text-align: center;
     padding: 2%;
+    margin-bottom: 20%;
 }
 
 div.cards section {
@@ -181,16 +182,20 @@ div.cards section {
     padding: 2%;
 }
 
-div.cards h2 {
+div.cards section section {
+    border: none;
+}
+
+div.cards section h2 {
     color: #ffffff;
 }
 
-div.cards p {
+div.cards section p {
     color: #ffffff;
     font-style: italic;
 }
 
-div.cards section div {
+div.cards section section div {
     background-color: #ffffff;
     border: 10px double #071339;
     display: block;
@@ -199,10 +204,9 @@ div.cards section div {
     padding-top: 5px;
     padding-bottom: 5px;
     margin-bottom: 2%;
-
 }
 
-div.cards section div p {
+div.cards section section div p {
  color: black;
  font-style: normal;
 }
@@ -213,7 +217,7 @@ div.cards img {
 }
 
 
-/*---------home buttons----------*/
+/*---------home features----------*/
 div.link a {
     display: block;
     padding: 16px;
@@ -235,6 +239,12 @@ div.link a:hover {
     background-color: #f6f07c;
     border: 5px double #071339;
     box-shadow: 0px 0px 6px #071339;
+}
+
+
+p.home {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
 }
 
 

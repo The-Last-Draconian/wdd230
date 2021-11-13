@@ -16,9 +16,10 @@ fetch(requestURL)
          rightTowns.forEach((town) => {
              //Populating the card content
              let card = document.createElement("section");
+             let text = document.createElement("section");
              let h2 = document.createElement("h2");
              let motto = document.createElement("p");
-             let paragraphs = document.createElement("div")
+             let paragraphs = document.createElement("div");
              let yearFounded = document.createElement("p");
              let currentPopulation = document.createElement("p");
              let averageRainfall = document.createElement("p");
@@ -30,17 +31,27 @@ fetch(requestURL)
              yearFounded.textContent = `Year Founded: ${town.yearFounded}`;
              currentPopulation.textContent = `Current Population: ${town.currentPopulation}`;
              averageRainfall.textContent = `Average Rainfall: ${town.averageRainfall}`;
-             image.setAttribute("src", "images/logo.png");
+             
+             //setting the images because WHY
+             if (town.name === "Fish Haven") {
+             image.setAttribute("src", "images/fish-haven.600.jpg");
              image.setAttribute("alt", `${town.name} - ${town.photo}`);
-
+             } else if (town.name === "Soda Springs") {
+             image.setAttribute("src", "images/soda-springs.600.jpg");
+             image.setAttribute("alt", `${town.name} - ${town.photo}`);  
+             } else if (town.name === "Preston") {
+             image.setAttribute("src", "images/preston.600.jpg");
+             image.setAttribute("alt", `${town.name} - ${town.photo}`);
+             }
              //ordering the content
-             card.appendChild(h2);
-             card.appendChild(motto);
-             card.appendChild(paragraphs);
-              paragraphs.appendChild(yearFounded);
-              paragraphs.appendChild(currentPopulation);
-              paragraphs.appendChild(currentPopulation);
-              paragraphs.appendChild(averageRainfall);
+             card.appendChild(text);
+              text.appendChild(h2);
+              text.appendChild(motto);
+              text.appendChild(paragraphs);
+               paragraphs.appendChild(yearFounded);
+               paragraphs.appendChild(currentPopulation);
+               paragraphs.appendChild(currentPopulation);
+               paragraphs.appendChild(averageRainfall);
              card.appendChild(image);
 
              //exporting the content to the cards div

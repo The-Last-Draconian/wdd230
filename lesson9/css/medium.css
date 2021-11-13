@@ -76,6 +76,54 @@ p.article {
 
 
 
+
+/*---------Town Cards--------*/
+div.cards section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+div.cards section section {
+    display: block;
+    grid-column: 1;
+    text-align: left;
+}
+
+div.cards section section div {
+    padding-left: 5%;
+    margin-left: 0;
+}
+
+div.cards section:nth-child(2) section {
+    grid-column: 2;
+    grid-row: 2;
+    text-align: right;
+}
+
+div.cards section:nth-child(2) section div {
+    padding-right: 5%;
+    margin: 0 auto;
+    padding-left: 0%;
+    margin-right: -2%;
+}
+
+div.cards section:nth-child(2) img {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+div.cards img {
+    grid-column: 2;
+}
+
+
+/*---------home features----------*/
+div.link a {
+    width: 30%;
+}
+
+
+
 /*-----weather summary-----*/
 
 .herodiv {
