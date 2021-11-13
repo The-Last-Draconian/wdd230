@@ -133,6 +133,7 @@ main img {
 
 main h1 {
     font-size: 20px;
+    padding-top: 10px;
     font-family: 'Merriweather', serif;
     font-weight: 700;
 }
