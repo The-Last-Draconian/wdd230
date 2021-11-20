@@ -27,10 +27,10 @@ fetch(apiURL)
         let forecastDayNumber = todayDayNumber;
             
             for (i=0; i < mylist.length; i++) {
-                let time = mylist[i].dt_text;
+                let time = mylist[i].dt_txt;
                 
-                if (time.includes() = "18:00:00") {
-                    console.log("Found an entry with 18:00:00 in the time. It was report "+i+" from the mylist of 40")
+                if (time.includes("18:00:00")) {
+                    console.log("Found an entry with 18:00:00 in the time. It was report "+i+" from the mylist of 40");
                 
                     forecastDayNumber += 1;
                     if (forecastDayNumber === 7) {forecastDayNumber = 0;}
@@ -41,8 +41,22 @@ fetch(apiURL)
                     theTemp.textContent = mylist[i].main.temp + "\xB0" + "F";
 
                     let iconcode = mylist[i].weather[0].icon;
+                    let icondesc = mylist[i].weather[0].main;
                     let theIcon = document.createElement("img");
-                        if (iconcode === "01d" || "01n") {
+                    if (icondesc === "Clear") {
+                        theIcon.setAttribute("src", "weather-images/sunny.png");
+                    } else if (icondesc === "Clouds") {
+                        theIcon.setAttribute("src", "weather-images/cloudy.png");
+                    } else if (icondesc === "Drizzle") {
+                        theIcon.setAttribute("src", "weather-images/rainy.png");
+                    } else if (icondesc === "Rain") {
+                        theIcon.setAttribute("src", "weather-images/rainy.png");
+                    } else if (icondesc === "Thunderstorm") {
+                        theIcon.setAttribute("src", "weather-images/rainy.png");
+                    } else if (icondesc === "Snow") {
+                        theIcon.setAttribute("src", "weather-images/snowy.png");
+                    }
+                        /*if (iconcode === "01d" || "01n") {
                             theIcon.setAttribute("src", "weather-images/sunny.png");
                         } else if (iconcode === "02d" || "02n") {
                             theIcon.setAttribute("weather-images/partly-cloudy.png");
@@ -54,7 +68,7 @@ fetch(apiURL)
                             theIcon.setAttribute("src", "weather-images/rainy.png");
                         } else {
                             theIcon.setAttribute("src", "weather-images/snowy.png");
-                        }
+                        }*/
                     
 
                     let theDay = document.createElement("div");
