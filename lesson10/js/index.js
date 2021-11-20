@@ -13,6 +13,15 @@ let day = date.getDate();
 let year = date.getFullYear();
 document.getElementById("date").textContent = `${day} ${month}, ${year}`;
 
+/*let dayNumber = date.getDay();
+let element = document.getElementById("message");
+    if (dayNumber == 5) {
+        element.classList.add("showme");
+    } else {
+        element.classList.add("hideme");
+    }
+*/
+
 
 //Last Visited code
 localStorage.setItem("lastDate", day);
@@ -22,9 +31,9 @@ document.getElementById("last-visit").textContent = `Last visited ${lastVisit} d
 
 
 
-/* Lazy Loading code */
+// Lazy Loading code
 
-let images = document.querySelectorAll("img[data-src]");
+/*let images = document.querySelectorAll("img[data-src]");
 
 function preloadImage(img) {
     let src = img.getAttribute("data-src");
@@ -52,7 +61,7 @@ let imageObserver = new IntersectionObserver((entries, imageObserver) => {
 
 images.forEach(image => {
     imageObserver.observe(image);
-});
+});*/
 
 
 
