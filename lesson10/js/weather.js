@@ -7,7 +7,7 @@ const todayDayNumber = d.getDay();
 const weekday = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
 
 //getting JSON data
-const apiURL = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=757fdffc94f2ce34d65cf1834a8f1c4c&units=imperial";
+const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=757fdffc94f2ce34d65cf1834a8f1c4c&units=imperial";
 fetch(apiURL)
     .then((response) => response.json())
     .then((weatherInfo) => {
