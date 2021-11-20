@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Weather My Storm | Storm Center</title>
+        <meta name="description" content="Contains images of weather phenomena.">
+        
+        
+
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <script defer src="js/index.js"></script>
+    </head>
+
+    <body>
+        <header class="clearfix">
+            <img src="images/logo.png" alt="site logo" width="120" height="120">
+            <h1>Weather My Storm</h1>
+            <h2>The center for weather forecasts and information</h2>
+            </header>
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="navigation" class="hide">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1>Report Weather Phenomena</h1>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                <legend>Reporter Info</legend>
+                    <!--I copied this regex from a developer's forum because I understand literally nothing the symbols are saying-->
+                    <label class="top">Full Name* <input type="text" name="fullname" pattern="^[a-zA-Z0-9_]+( [a-zA-Z0-9_]+)*$" minlength="5" required></label>
+                    <label class="top">Email <input type="email" name="email" placeholder="youremail@gmail.com"></label>    
+                    <label class="top">Phone* <input type="tel" name="phone" required></label>
+                    <label class="top">Zip* <input type="number" placeholder="12345" required></label>
+                </fieldset>
+        
+                <fieldset>
+                <legend>Weather Info</legend>
+                    <label class="top">Storm Date<input type="date" name="stormDate"></label>
+                    <label class="top">Storm Type
+                        <input class="top" list="stormType" name="stormtypes">
+                            <datalist id="stormType">
+                                <option value="Flash Flood"></option>
+                                <option value="Hail"></option>
+                                <option value="Hurricane"></option>
+                                <option value="Thunderstorm"></option>
+                                <option value="Tornado"></option>
+                            </datalist>
+                    </label>
+                    <label id="severity">Storm Severity <input type="range" name="severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">5</span>
+                        <datalist id="tickmarks">
+                            <option value="0">
+                            <option value="1">
+                            <option value="2">
+                            <option value="3">
+                            <option value="4">
+                            <option value="5">
+                            <option value="6">
+                            <option value="7">
+                            <option value="8">
+                            <option value="9">
+                            <option value="10">
+                        </datalist>
+                    </label>
+                    <label class="top">Storm Region
+                        <select name="subject">
+                            <option value="" selected disabled="disabled">Select Region &#9662;</option>
+                            <option value="preston">Preston</option>
+                            <option value="sodaSprings">Soda Springs</option>
+                            <option value="fishHaven">Fish Haven</option>
+                        </select>
+                    </label>
+                    <div>User In-Danger Level</div>
+                        <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
+                        <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
+                        <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+                </fieldset>
+        
+                <fieldset>
+                <legend>Extras</legend>
+                    <label class="top"> Additional Comments
+                        <textarea></textarea>
+                    </label>
+                </fieldset>
+        
+                <input class="submitButton" type="submit" value="Report My Weather">
+            </form>
+        </main>
+        <footer>
+            &copy; Abigail Taylor | <span id="date">date</span>
+            <br> <span id="last-visit">Last visit</span>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>    
+            WebFont.load({google: {families: ["Merriweather", "Poppins"]}});
+        </script>
+    </body>
+
+
+
+
+
+
+    </html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Weather My Storm | Home</title>
+        <meta name="description" content="Contains information for the city Preston.">
+        
+        
+
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <script defer src="js/index.js"></script>
+        <script defer src="js/town-cards.js"></script>
+    </head>
+
+    <body>
+        <header class="clearfix">
+            <img src="images/logo.png" alt="site logo" width="120" height="120">
+            <h1>Weather My Storm</h1>
+            <h2>The center for weather forecasts and information</h2>
+            </header>
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="navigation" class="hide">
+                <li class="active"><a href="home.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="herodiv">  
+                <figure class="hero-img">
+                    <img src="images/cumulonimbus.jpg" alt="hero image" sizes="100w"
+                        srcset="images/cumulonimbus.200.jpg 200w,
+                                images/cumulonimbus.500.jpg 500w,
+                                images/cumulonimbus.1000.jpg 1000w">
+                </figure>
+            </div>  
+
+            <p class="home"><i>Weathermystorm.com</i> is a site dedicated to the weather 
+                in Preston, Soda Springs, and Fish Haven. We have weather forecasts, major events,
+                information about weather phenomena, and more! 
+            </p>
+
+            <p class="home">Have you ever wanted to be able to give a weather report? 
+                Not as the meteorologist on television, but as yourself. Maybe you noticed 
+                that a storm has picked up, and you want to make sure people know so they 
+                can be safe. Guess what? You can! We accept weather reports from users passing through 
+                the area. Click the link below, or navigate to the Storm Center to fill out our quick 
+                and easy weather reports!
+            </p>
+
+
+            <div class="link">
+                <a href="#">Report My Weather</a>
+            </div>
+
+
+            <div class="cards"></div>
+
+
+            <p class="home">We have a gallery dedicated to various weather phenomena. 
+                Need to know what hoarfrost looks like? Or how to tell a storm cloud 
+                from a regular nimbus? Or maybe you just want to see all the breathtaking 
+                forms of the sky. Click below to visit our gallery!
+            </p>
+
+            
+            <div class="link">
+                <a href="#">Visit Gallery</a>
+            </div>
+
+
+            <h2>Contact Us</h2>
+            <div id="contact">
+                <section>
+                    <h3>Address:</h3>
+                    <p>The Weather Center
+                    <br>123 Main Street
+                    <br>Franklin, MI 87654</p>
+                </section>
+                <section>
+                    <h3>Phone:</h3>
+                    <p>(801) 555-1234</p>
+                    <h3>Email:</h3>
+                    <p>contact@yoururl.com</p>
+                </section>
+                <figure class="map-img">
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96140.9628144354!2d-104.83744480672122!3d41.1475112883646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876f38762e73ef93%3A0xb10a30418f972d2b!2sCheyenne%2C%20WY%2C%20USA!5e0!3m2!1sen!2sit!4v1634980029334!5m2!1sen!2sit" width="468" height="311" style="border:0;" loading="lazy"></iframe>
+                </figure>
+            </div>
+        </main>
+        <footer>
+            &copy; Abigail Taylor | <span id="date">date</span>
+            <br> <span id="last-visit">Last visit</span>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>    
+            WebFont.load({google: {families: ["Merriweather", "Poppins"]}});
+        </script>
+    </body>
+
+
+
+
+
+
+    </html>
