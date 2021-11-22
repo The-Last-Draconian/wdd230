@@ -41,35 +41,9 @@ fetch(apiURL)
                     theTemp.textContent = mylist[i].main.temp + "\xB0" + "F";
 
                     let iconcode = mylist[i].weather[0].icon;
-                    let icondesc = mylist[i].weather[0].main;
+                    let iconPath = "https://openweathermap.org/img/wn/" + iconcode + ".png";
                     let theIcon = document.createElement("img");
-                    if (icondesc === "Clear") {
-                        theIcon.setAttribute("src", "weather-images/sunny.png");
-                    } else if (icondesc === "Clouds") {
-                        theIcon.setAttribute("src", "weather-images/cloudy.png");
-                    } else if (icondesc === "Drizzle") {
-                        theIcon.setAttribute("src", "weather-images/rainy.png");
-                    } else if (icondesc === "Rain") {
-                        theIcon.setAttribute("src", "weather-images/rainy.png");
-                    } else if (icondesc === "Thunderstorm") {
-                        theIcon.setAttribute("src", "weather-images/rainy.png");
-                    } else if (icondesc === "Snow") {
-                        theIcon.setAttribute("src", "weather-images/snowy.png");
-                    }
-                        /*if (iconcode === "01d" || "01n") {
-                            theIcon.setAttribute("src", "weather-images/sunny.png");
-                        } else if (iconcode === "02d" || "02n") {
-                            theIcon.setAttribute("weather-images/partly-cloudy.png");
-                        } else if (iconcode === ("src", "03d" || "04d") || ("03n" || "04n")) {
-                            theIcon.setAttribute("src", "weather-images/cloudy.png");
-                        } else if (iconcode === ("09d" || "10d") || ("50d" || "11d")) {
-                            theIcon.setAttribute("src", "weather-images/rainy.png");
-                        } else if (iconcode === ("09n" || "10n") || ("50n" || "11n")) {
-                            theIcon.setAttribute("src", "weather-images/rainy.png");
-                        } else {
-                            theIcon.setAttribute("src", "weather-images/snowy.png");
-                        }*/
-                    
+                    theIcon.setAttribute("src", iconPath);
 
                     let theDay = document.createElement("div");
                     theDay.appendChild(theDayName);
