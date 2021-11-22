@@ -51,8 +51,8 @@ fetch(apiURL)
                     theDay.appendChild(theIcon);
 
                     document.getElementById("weather-forecast").appendChild(theDay);
-                }//if
-            }//for
+                }
+            }
     
     
     });
