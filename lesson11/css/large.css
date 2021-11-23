@@ -1,0 +1,126 @@
+@media only screen and (min-width: 60em) {
+
+
+
+/*------body rules------*/
+        
+        
+/*-------header rules---------*/
+        
+        
+header h1 {
+    font-size: 50px;
+}
+        
+        
+        
+        
+/*-----nav rules-----*/
+ 
+/*--------main rules---------*/
+        
+main {
+    font-size: 12pt;
+}
+        
+main h1 {
+    font-size: 30px;
+}
+        
+main h2 {
+    font-size: 30px;
+}
+
+main h3 {
+    font-size: 20px;
+}
+        
+        
+/*-----weather summary-----*/
+        
+        
+
+/*---------Town Cards--------*/
+
+div.cards {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 3%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+div.cards section {
+    display: block;
+    grid-column: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.cards section section {
+    text-align: center;
+    margin: 0 auto;
+}
+
+div.cards section:nth-child(2) section {
+    text-align: center;
+    margin: 0 auto;
+}
+
+div.cards section:nth-child(2) section div {
+    margin: 0 auto;
+    padding: 0;
+}
+
+div.cards section section div {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
+    padding: 0;
+}
+
+
+
+/*---------home features----------*/
+div.link a {
+    text-align: center;
+    font-size: 20px;
+    width: 40%;
+}
+
+
+        
+/*----forecast rules----*/
+        
+        
+/*------contact rules----*/
+        
+
+
+/*-------gallery grid rules------*/
+section.gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8px;
+}
+
+section.gallery figure {
+    border: 8px double #b0d3e6;
+}
+
+section.gallery figure:hover {
+    border-color: #f6f07c;
+    box-shadow: 4px 4px 7px #071339;
+}
+
+
+
+
+        
+/*--------footer rules--------*/
+        
+        
+        
+        
+        
+
+}
