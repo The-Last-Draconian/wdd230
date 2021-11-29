@@ -28,6 +28,7 @@ fetch(requestURL)
              //Adding values to the content
              h2.textContent = `${town.name}`;
              motto.textContent = `${town.motto}`;
+             motto.setAttribute("class", "motto");
              yearFounded.textContent = `Year Founded: ${town.yearFounded}`;
              currentPopulation.textContent = `Current Population: ${town.currentPopulation}`;
              averageRainfall.textContent = `Average Rainfall: ${town.averageRainfall}`;

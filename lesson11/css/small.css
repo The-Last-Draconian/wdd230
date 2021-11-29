@@ -251,12 +251,18 @@ p.home {
 
 /*-----weather summary-----*/
 .weather-summary {
-    color: #071339;
-    background-color: #b0d3e6;
-    width: 94%;
+    color: #ffffff;
+    background-color: #071339;
+    width: 100%;
+    box-sizing: border-box;
     padding: 3%;
     margin: 0 auto;
     margin-bottom: 20%;
+    border: 5px solid #f6f07c;
+}
+
+.weather-summary span.head-span {
+    font-weight: bold;
 }
 
 
@@ -276,12 +282,35 @@ p.home {
 figure.article-img img {
     width: 100%;
     height: auto;
+    border: 8px solid #f6f07c;
 }
 
 p.article {
     margin-bottom: 20%;
 }
 
+
+
+/*-----events rules-------*/
+section.events div {
+    text-align: center;
+    background-color: #071339;
+    border: 10px double #ffffff;
+    padding: 2%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+section.events div h2 {
+    color: #ffffff;
+}
+
+section.events div p {
+    color: #f6f07c;
+}
 
 /*------contact rules----*/
 figure.map-img iframe {
@@ -300,6 +329,7 @@ section.gallery {
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr;
+    padding-top: 2%;
 }
 
 section.gallery figure {

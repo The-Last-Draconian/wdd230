@@ -34,7 +34,7 @@ fetch(apiURL)
                 
                     forecastDayNumber += 1;
                     if (forecastDayNumber === 7) {forecastDayNumber = 0;}
-                    let theDayName = document.createElement("span");
+                    let theDayName = document.createElement("h3");
                     theDayName.textContent = weekday[forecastDayNumber];
 
                     let theTemp = document.createElement("p");

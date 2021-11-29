@@ -168,6 +168,17 @@ div.link a {
     margin: 0 auto;
 }
 
+
+
+
+
+/*-----events rules-------*/
+section.events div {
+    width: 80%;
+}
+
+
+
 /*------contact rules----*/
 
 #contact {
