@@ -136,6 +136,8 @@ main h1 {
     padding-top: 10px;
     font-family: 'Merriweather', serif;
     font-weight: 700;
+    box-sizing: border-box;
+    margin-top: 0;
 }
 
 main h2 {
