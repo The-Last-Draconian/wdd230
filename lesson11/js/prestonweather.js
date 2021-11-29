@@ -58,3 +58,44 @@ fetch(apiURL)
     });
 
 
+//getting JSON data
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+//fetching the URL and making a Promise
+fetch(requestURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        console.table(jsonObject);
+        //Array function based off Virtual Lab example
+         const townData = jsonObject["towns"];
+        //Filter out relevant towns
+        const rightTowns = townData.filter((town) => town.name === "Preston" || town.name === "Soda Springs" || town.name === "Fish Haven");
+         rightTowns.forEach((town) => {
+             if (town.name === "Preston") {
+                //Populating the card content
+                let card = document.createElement("div");
+                let h2 = document.createElement("h2");
+                let para1 = document.createElement("p");
+                let para2 = document.createElement("p");
+                let para3 = document.createElement("p");
+
+                //Adding values to the content
+                h2.textContent = "Upcoming Events";
+                para1.textContent = `${town.events[0]}`;
+                para2.textContent = `${town.events[1]}`;
+                para3.textContent = `${town.events[2]}`;
+                
+                
+                //ordering the content
+                card.appendChild(h2);
+                card.appendChild(para1);
+                card.appendChild(para2);
+                card.appendChild(para3);
+
+                //exporting the content to the cards div
+                document.querySelector("section.events").appendChild(card);
+             }
+        });
+    });
