@@ -180,7 +180,7 @@ section.paragraph p {
 #restaurants {
     display: block;
     text-align: center;
-    background-color: #a11c1c91;
+    background-color: #a11c1c48;
     padding: 4%;
 }
 
@@ -195,7 +195,39 @@ section.paragraph p {
 #restaurants h3 {
     font-family: "Cinzel Decorative", cursive;
     font-weight: bold;
-    font-size: ;
+}
+
+#restaurants figure {
+    padding: 0;
+    margin: 0;
+}
+
+#restaurants img {
+    box-sizing: border-box;
+    padding: 0;
+    width: 80%;
+    border: 10px solid #ffff5c;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    margin: 0 auto;
+}
+
+#restaurants figcaption {
+    font-size: .5rem;
+}
+
+#restaurants a {
+    display: block;
+    width: 30%;
+    height: auto;
+    padding: 4%;
+    font-family: "Italianno", cursive;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #a11c1c;
+    background-color: #ffff5c;
+    border-radius: 20px;
+    margin: 4% auto 0 auto;
 }
 
 
@@ -230,6 +262,7 @@ section.paragraph p {
     background-color: #53e718ab;
     border: 5px solid #53e718;
     padding: 4%;
+    text-align: left;
 }
 
 
@@ -280,6 +313,10 @@ form label.top input:required {
 
 form label.top input:required:valid {
     border-left: 6px solid #53e718;
+}
+
+form label.required {
+    font-weight: bold;
 }
 
 form label.top input, form label.top select {
@@ -336,14 +373,14 @@ form textarea {
 form input.submitButton {
     display: block;
     border: none;
-    background-color: #071339;
+    background-color: #53e718;
     color: #f6f07c;
     padding: .75rem 1.5rem;
     margin-bottom: 5%;
     width: 100%;
-    max-width: 20rem;
-    font-family: 'Merriweather', serif;
-    font-weight: 700;
+    max-width: 50%;
+    font-family: "Italianno", cursive;
+    font-size: 2rem;
 }
 
 form input.submitButton:hover {
@@ -351,3 +388,7 @@ form input.submitButton:hover {
     color: #071339;
 
 }
+
+
+
+/*CONTACT RULES CONTACT RULES CONTACT RULES CONTACT RULES CONTACT RULES*/

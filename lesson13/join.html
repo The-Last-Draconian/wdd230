@@ -39,16 +39,16 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Applicant Info</legend>
-                <label class="top">First Name* <input type="text" name="firstname" pattern="^[a-zA-Z0-9_]+( [a-zA-Z0-9_]+)*$" minlength="5" required></label>
-                <label class="top">Last Name* <input type="text" name="lastname" pattern="^[a-zA-Z0-9_]+( [a-zA-Z0-9_]+)*$" minlength="5" required></label>
+                <label class="top required">First Name* <input type="text" name="firstname" pattern="^[a-zA-Z0-9_]+( [a-zA-Z0-9_]+)*$" minlength="2" required></label>
+                <label class="top required">Last Name* <input type="text" name="lastname" pattern="^[a-zA-Z0-9_]+( [a-zA-Z0-9_]+)*$" minlength="2" required></label>
                 <label class="top">Title <input type="text" name="title" pattern="^[a-zA-Z0-9_]*$" minlength="3"></label>
-                <label class="top">Email* <input type="email" name="email" required></label>    
+                <label class="top required">Email* <input type="email" name="email" required></label>    
                 <label class="top">Phone <input type="tel" name="phone"></label>
             </fieldset>
             
             <fieldset>
                 <legend>Business Info</legend>
-                <label class="top">Business Name* <input type="text" name="businessname" required></label>
+                <label class="top required">Business Name* <input type="text" name="businessname" required></label>
                 <label class="top">Business Address <input type="text" name="businessaddress"></label>
                 <label class="top">Business Website <input type="text" name="businesswebsite" pattern=""></label>
                 <label class="top">Business Description <input type="text" name="businessdesc"></label>
@@ -66,10 +66,12 @@
         </form>
 
     </main>
-    <p>
-        &copy; Abigail Taylor 2021 | <a href="attributions.html">Attributions</a> |
-        <span id="date">date</span> | <span id="last-visit">Last visit</span>
-    </p>
+    <footer>
+        <p>
+            &copy; Abigail Taylor 2021 | <a href="attributions.html">Attributions</a> |
+            <span id="date">date</span> | <span id="last-visit">Last visit</span>
+        </p>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>    
          WebFont.load({google: {families: ["Italianno", "Cinzel Decorative", "Alegreya Sans"]}});

@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Ciao, Italia! | Contact</title>
+    <title>Ciao, Italia! | Message Sent</title>
     <meta name="description"
-        content="Learn about Pordenone, the hub of the website.">
+        content="The redirect page after the join form submission.">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -24,8 +24,8 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="city.html">Pordenone</a></li>
                 <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
-                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a class="active" href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <!--change this!-->
@@ -36,31 +36,10 @@
         </div>
     </header>
     <main>
-        
-        <section id="contact">
-            <p>Via Castello 92
-                <br>33070 Budoia PN</p>
-             <p>+39 (123)-456-7890</p>
-             <p>cichamber@ciaoitaly.com</p>
+        <section class="paragraph">
+            <p>Your message has been sent. Thank you for contacting us!</p>
         </section>
-
-        <form method="get" action="sent.html">
-            <fieldset>
-                <legend>Contact</legend>
-                <label class="top required">First Name* <input type="text" name="firstname" pattern="^[a-zA-Z0-9_]+( [a-zA-Z0-9_]+)*$" minlength="2" required></label>
-                <label class="top required">Last Name* <input type="text" name="lastname" pattern="^[a-zA-Z0-9_]+( [a-zA-Z0-9_]+)*$" minlength="2" required></label>
-                <label class="top required">Email* <input type="email" name="email" required></label>    
-                <label class="top required">Phone* <input type="tel" name="phone" required></label>
-            </fieldset>
-            
-            <fieldset>
-                <legend>Message</legend>
-                <label class="top required">
-                    <textarea></textarea>
-                </label>
-            </fieldset>
-            <input class="submitButton" type="submit" value="Contact Chamber">
-        </form>
+        
 
     </main>
     <footer>

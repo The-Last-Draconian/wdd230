@@ -19,12 +19,15 @@ fetch(requestURL)
              let h3 = document.createElement("h3");
              let desc = document.createElement("p");
              let img = document.createElement("img");
+             let figure = document.createElement("figure");
+             let figcaption = document.createElement("figcaption");
              let link = document.createElement("a");
 
              //Adding values to the content
              h3.textContent = `${member.name}`;
              desc.textContent = `${member.desc}`;
              img.setAttribute("src", `images/businesses/${member.photo}`);
+             figcaption.textContent = `${member.caption}`;
              link.textContent = "Visit site";
              link.setAttribute("href", `${member.url}`);
              
@@ -32,7 +35,9 @@ fetch(requestURL)
              //ordering the content
              card.appendChild(h3);
              card.appendChild(desc);
-             card.appendChild(img);
+             card.appendChild(figure);
+               figure.appendChild(img);
+               figure.appendChild(figcaption);
              card.appendChild(link);
               
 
