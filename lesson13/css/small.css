@@ -1,0 +1,336 @@
+/*
+COLOR SCHEME:
+dark red: a11c1c
+light pink: ff7474
+creamy white: fffbf1
+light yellow: ffff5c
+light green: 53e718
+green: 1d6700
+
+FONTS:
+Italianno - uber fancy
+Cinzel Decorative - headlines
+Alegreya Sans - normal text
+*/
+
+/*HOME RULES HOME RULES HOME RULES HOME RULES HOME RULES HOME RULES HOME RULES HOME RULES */
+
+/*------body rules------*/
+body {
+    background-color: #fffbf1;
+}
+
+
+body h2 {
+    font-family: "Cinzel Decorative", cursive;
+    font-weight: bold;
+}
+
+
+/*----------nav rules-----------*/
+
+nav button {
+    padding: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #ffff5c;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+    margin: 0;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+ul li a {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    color: #fffbf1;
+    background-color: #a11c1c;
+}
+
+ul li a.active {
+    color: #fffbf1;
+    background-color: #ff7474;
+}
+
+ul li a:hover {
+    color: #fffbf1;
+    background-color: #ff7474;
+}
+
+/*-------header rules---------*/
+header {
+    background-color: #a11c1c;
+    display: block;
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Italianno", cursive;
+    font-size: 50px;
+    color: #fffbf1;
+    background-color: #53e718;
+    padding: 2%;
+}
+
+header h2 {
+    font-family: "Cinzel Decorative", cursive;
+    font-weight: bold;
+}
+
+/*------hero image-------*/
+
+
+
+
+
+/*--------main rules---------*/
+
+main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+main h2 {
+    font-family: "Cinzel Decorative", cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+main section {
+    margin-bottom: 30%;
+}
+
+
+
+/*------weather forecast rules-----*/
+
+#forecast-h2 {
+    text-align: center;
+    padding: 2%;  
+}
+
+#weather-forecast {
+    text-align: center;
+    padding: 2%;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20%;
+    background-color: #53e718;
+}
+
+#weather-forecast h3 {
+    font-family: "Italianno", cursive;
+    font-size: 40px;
+}
+
+#weather-forecast div {
+    background-color: white;
+    padding: 2%;
+    margin-bottom: 2%;
+    border-radius: 10%;
+}
+
+#weather-forecast div p {
+    font-size: 20px;
+    margin: 10px;
+}
+
+#weather-forecast div p.temp {
+    font-size: 40px;
+}
+
+#weather-forecast img {
+    margin: 0 auto;
+    width: 50%;
+    border: 10px solid #ffff5c;
+    background: #ff7474;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+
+
+
+/*----------paragraph section Rules------*/
+section.paragraph p {
+    color: black;
+    background-color: #53e71848;
+    padding: 4%;
+    border: #53e718 solid 5px;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+
+
+/*-------restaurants section rules-------*/
+#restaurants {
+    background-color: #a11c1c;
+}
+
+
+
+/*------join-now paragraph rules---*/
+#join-now {
+    background-color: #ff747448;
+    border: #ff7474 5px solid;
+    padding: 4%;
+    text-align: center;
+}
+
+#join-now a {
+    display: block;
+    margin: 0 auto;
+    padding: 2%;
+    width: 30%;
+    color: #ffff5c;
+    background-color: #a11c1c;
+    border: 5px solid #ffff5c;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: "Italianno", cursive;
+    font-size: 30px;
+}
+
+
+
+/*-----contact rules-----*/
+#contact {
+    font-size: 20px;
+    background-color: #53e718ab;
+    border: 5px solid #53e718;
+    padding: 4%;
+}
+
+
+/*----footer rules----*/
+
+footer {
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #a11c1c;
+    padding: 4%;
+    color: #fffbf1
+}
+
+footer a {
+    color: #ffff5c;
+}
+
+
+
+
+/*JOIN RULES JOIN RULES JOIN RULES JOIN RULES JOIN RULES JOIN RULES JOIN RULES JOIN RULES JOIN RULES*/
+
+form fieldset {
+    margin: 2rem 0;
+    border: 5px solid #53e718;
+    background-color: #53e71848;
+    padding: .5rem 4%;
+}
+
+form legend {
+    margin: 0 1rem;
+    padding: 0.5rem;
+    font-size: 20px;
+    font-family: "Cinzel Decorative", cursive;
+    font-weight: bold;
+}
+
+form label.top, form div {
+    display: block;
+    margin-top: 2rem;
+    font-size: 15px;
+}
+
+form label.top input:required {
+    border-left: 6px solid #a11c1c;
+}
+
+form label.top input:required:valid {
+    border-left: 6px solid #53e718;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #071339;
+    padding: .75rem;
+    margin-top: .5rem;
+    width: 100%;
+    max-width: 20rem;
+}
+
+form label#severity {
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+    max-width: 20rem;
+    margin-top: 2rem;
+}
+
+form label#severity input {
+    display: block;
+    width: 100%;
+    max-width: 20rem;
+}
+
+form span#ratingvalue {
+    display: inline-block;
+    text-align: center;
+    background-color: #071339;
+    color: #ffffff;
+    margin-top: 2rem;
+    padding: .5rem;
+    width: 1rem;
+    height: 1rem;
+    border: 5px double #ffffff;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem;
+    color: #071339;
+}
+
+form textarea {
+    display: block;
+    margin-top: .5rem;
+    width: 100%;
+    height: 10rem;
+    max-width: 20rem;
+}
+
+form input.submitButton {
+    display: block;
+    border: none;
+    background-color: #071339;
+    color: #f6f07c;
+    padding: .75rem 1.5rem;
+    margin-bottom: 5%;
+    width: 100%;
+    max-width: 20rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+form input.submitButton:hover {
+    background-color: #b0d3e6;
+    color: #071339;
+
+}
