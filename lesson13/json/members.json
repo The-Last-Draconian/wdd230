@@ -8,7 +8,8 @@
             "type": "restaurant",
             "address": "Via E. Fermi, 5, 36066 Sandrigo VI",
             "phone": "+39 (334)-220-4999",
-            "url": "https://www.dfitalia.com"
+            "url": "https://www.dfitalia.com",
+            "subscription": "non-profit"
         },
         {
             "name": "86 Il Gelato",
@@ -18,8 +19,8 @@
             "type": "restaurant",
             "address": "Via Riccardo Pitteri, 2, 33081 Aviano PN",
             "phone": "+39 (043)-465-2806",
-            "url": "https://www.facebook.com/atigianatoartistico/"
-
+            "url": "https://www.facebook.com/atigianatoartistico/",
+            "subscription": "bronze"
         },
         {
             "name": "Carpe Diem",
@@ -29,8 +30,8 @@
             "type": "restaurant",
             "address": "Viale Venezia, 33/A, 33074 Fontanafredda PN",
             "phone": "+39 0434-183-1549",
-            "url": "https://www.facebook.com/CarpeDiem090"
-
+            "url": "https://www.facebook.com/CarpeDiem090",
+            "subscription": "silver"
         },
         {
             "name": "La Pizza per asporto di Monica Buriola",
@@ -40,7 +41,8 @@
             "type": "restaurant",
             "address": "Via Giuseppe Mazzini, 4, 33081 Castello d'Aviano PN",
             "phone": "+39 (043)-466-1122",
-            "url": "https://www.lapizza-aviano.it/"
+            "url": "https://www.lapizza-aviano.it/",
+            "subscription": "gold"
         },
         {
             "name": "Ristorante San Giorgio",
@@ -50,7 +52,8 @@
             "type": "restaurant",
             "address": "Viale S. Giorgio, 34, 33081 Aviano PN",
             "phone": "+39 (043)-465-1482",
-            "url": "https://www.ristorantesangiorgiopn.it/"
+            "url": "https://www.ristorantesangiorgiopn.it/",
+            "subscription": "silver"
         },
         {
             "name": "Decathlon Fiume Veneto",
@@ -60,7 +63,8 @@
             "type": "business",
             "address": "Via Maestri del Lavoro, 37, 33080 Fiume Veneto PN",
             "phone": "+39 0434-185-5238",
-            "url": "http://www.decathlon.it/it/store?store_i=PS_IT_49"
+            "url": "http://www.decathlon.it/it/store?store_i=PS_IT_49",
+            "subscription": "gold"
         },
         {
             "name": "Scarpe&Scarpe Roveredo in Piano",
@@ -70,7 +74,8 @@
             "type": "business",
             "address": "PC Semeraro Ovvio, Via Pionieri dell'Aria, 86/D, 33080 Roveredo in piano PN",
             "phone": "+39 0434-183-0554",
-            "url": "https://negozi.scarpescarpestore.com/it/italia/pordenone/scarpescarpe-roveredo-in-piano?utm_source=google&utm_medium=GMBSitelink&utm_campaign=GMBSitelink_Roveredo_in_Piano_SC0021"
+            "url": "https://negozi.scarpescarpestore.com/it/italia/pordenone/scarpescarpe-roveredo-in-piano?utm_source=google&utm_medium=GMBSitelink&utm_campaign=GMBSitelink_Roveredo_in_Piano_SC0021",
+            "subscription": "bronze"
         },
         {
             "name": "Aviano Main Exchange",
@@ -80,7 +85,8 @@
             "type": "business",
             "address": "139 Bldg 1411, Air, Via Pionieri dell'Aria, 33080 Roveredo in Piano PN",
             "phone": "+39 (043)-438-8811",
-            "url": "https://www.shopmyexchange.com/exchange-stores/Italy/AE/APO/Aviano-Main-Exchange-1424606?searched=true&rCountry=Italy"
+            "url": "https://www.shopmyexchange.com/exchange-stores/Italy/AE/APO/Aviano-Main-Exchange-1424606?searched=true&rCountry=Italy",
+            "subscription": "non-profit"
         },
         {
             "name": "Conad",
@@ -90,7 +96,8 @@
             "type": "supermarket",
             "address": "Viale Michelangelo Grigoletti, 62, 33170 Pordenone PN",
             "phone": "+39 (043)-436-2565",
-            "url": "https://www.conad.it/ricerca-negozi/negozio.001913.html"
+            "url": "https://www.conad.it/ricerca-negozi/negozio.001913.html",
+            "subscription": "bronze"
         },
         {
             "name": "Market Visotto Pordenone",
@@ -100,7 +107,8 @@
             "type": "supermarket",
             "address": "Via Dogana, 71, 33170 Pordenone PN",
             "phone": "+39 (043)-457-8365",
-            "url": "http://www.supermercativisotto.it/"
+            "url": "http://www.supermercativisotto.it/",
+            "subscription": "silver"
         },
         {
             "name": "Aldi",
@@ -110,7 +118,8 @@
             "type": "supermarket",
             "address": "Via Prasecco, 56/d, 33170 Pordenone PN",
             "phone": "+39 (800)-370-370",
-            "url": "https://www.aldi.it/?pk_campaign=GMB&pk_source=google"
+            "url": "https://www.aldi.it/?pk_campaign=GMB&pk_source=google",
+            "subscription": "gold"
         },
         {
             "name": "Lidl",
@@ -120,7 +129,8 @@
             "type": "supermarket",
             "address": "Via Ungaresca, 23, 33170 Pordenone PN",
             "phone": "+39 (800)-480-048",
-            "url": "https://www.lidl.it/"
+            "url": "https://www.lidl.it/",
+            "subscription": "bronze"
         }
     ]
 }

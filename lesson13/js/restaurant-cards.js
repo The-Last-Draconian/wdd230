@@ -1,6 +1,6 @@
 //Town Data for Homepage
 //storing the JSON file
-const requestURL = 'https://the-last-draconian.github.io/wdd230/lesson13/json/members.json';
+const requestURL = "https://the-last-draconian.github.io/wdd230/lesson13/json/members.json";
 
 //fetching the URL and making a Promise
 fetch(requestURL)
@@ -30,6 +30,7 @@ fetch(requestURL)
              figcaption.textContent = `${member.caption}`;
              link.textContent = "Visit site";
              link.setAttribute("href", `${member.url}`);
+             link.setAttribute("target", "_blank");
              
              
              //ordering the content
