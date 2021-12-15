@@ -1,6 +1,6 @@
 //Town Data for Homepage
 //storing the JSON file
-const requestURL = 'json/members.json';
+const requestURL = 'https://the-last-draconian.github.io/wdd230/lesson13/json/members.json';
 
 //fetching the URL and making a Promise
 fetch(requestURL)
@@ -34,7 +34,6 @@ fetch(requestURL)
              card.appendChild(desc);
              card.appendChild(img);
              card.appendChild(link);
-             link.appendChild(visit);
               
 
              //exporting the content to the restaurants section

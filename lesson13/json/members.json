@@ -1,7 +1,7 @@
 {
     "members": [
         {
-            "name": "DF ITALIA S.r.l.",
+            "name": "Df. Italia S.r.l.",
             "desc": "A milk vending machine",
             "photo": "dfitalia.png",
             "caption": "Maps Data: Google, &copy; Apr 2019/Massimiliano Scarpa",
@@ -83,7 +83,7 @@
             "url": "https://www.shopmyexchange.com/exchange-stores/Italy/AE/APO/Aviano-Main-Exchange-1424606?searched=true&rCountry=Italy"
         },
         {
-            "name": "CONAD",
+            "name": "Conad",
             "desc": "An Italian supermarket",
             "photo": "conad.png",
             "caption": "",
@@ -103,7 +103,7 @@
             "url": "http://www.supermercativisotto.it/"
         },
         {
-            "name": "ALDI",
+            "name": "Aldi",
             "desc": "An Italian grocery store",
             "photo": "aldi.png",
             "caption": "",
