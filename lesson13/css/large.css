@@ -1,0 +1,157 @@
+@media only screen and (min-width: 60em) {
+
+/*HOME RULES HOME RULES HOME RULES HOME RULES HOME RULES HOME RULES HOME RULES HOME RULES */
+
+/*------body rules------*/
+
+
+
+/*----------nav rules-----------*/
+
+nav ul li a {
+    font-size: 1.5rem;
+}
+
+
+
+/*-------header rules---------*/
+
+/*------hero image-------*/
+
+header div.home-hero div.div-1 {
+    width: 500px;
+    height: 167px;
+    border-radius: 167px 167px 0 0;
+
+}
+
+header h1 {
+    font-family: "Italianno", cursive;
+    font-size: 5rem;
+}
+
+header div.home-hero div.div-2 {
+    height: 40px;
+
+}
+
+
+
+
+
+/*--------main rules---------*/
+
+main {
+    max-width: 1000px;
+}
+
+main h2 {
+    font-size: 40px;
+}
+
+main section {
+    margin-bottom: 200px;
+    font-size: 1.1rem;
+}
+
+/*------weather forecast rules-----*/
+
+
+
+/*------home images rules--------*/
+
+
+
+/*----------paragraph section Rules------*/
+
+
+
+
+/*-------restaurants section rules-------*/
+#restaurants div {
+    width: 200px;
+}
+
+#restaurants h3 {
+    font-size: 1.7rem;
+}
+
+#restaurants figcaption {
+    font-size: .7rem;
+}
+
+#restaurants a {
+    margin-top: 20px;
+}
+
+/*-------upcoming events rules-----*/
+section.events ul li {
+    font-size: 1.5rem;
+}
+
+section.events span.date {
+    font-size: 3rem;
+}
+
+section.events p {
+    font-size: 1.5rem;
+}
+
+section.events p a {
+    font-size: 1.7rem;
+}
+
+
+
+/*------join-now paragraph rules---*/
+#join-now p {
+    font-size: 1.5rem;
+}
+
+#join-now a {
+    font-size: 2.7rem;
+}
+
+
+
+/*-----contact rules-----*/
+#contact {
+    font-size: 1.5rem;
+}
+
+
+/*----footer rules----*/
+
+
+
+/*CITY RULES CITY RULES CITY RULES CITY RULES CITY RULES CITY RULES CITY RULES CITY RULES CITY RULES CITY RULES*/
+
+/*-----attraction section rules-----*/
+
+
+
+/*---------more sites section rules---------*/
+
+
+/*DIRECTORY RULES DIRECTORY RULES DIRECTORY RULES DIRECTORY RULES DIRECTORY RULES DIRECTORY RULES DIRECTORY RULES*/
+
+
+
+
+/*JOIN RULES JOIN RULES JOIN RULES JOIN RULES JOIN RULES JOIN RULES JOIN RULES JOIN RULES JOIN RULES*/
+
+
+
+
+/*CONTACT RULES CONTACT RULES CONTACT RULES CONTACT RULES CONTACT RULES CONTACT RULES CONTACT RULES CONTACT RULES*/
+/*-----contact grid rules-----*/
+
+
+/*-------board of directors rules-----*/
+
+
+
+/*------form rules------*/
+
+
+}

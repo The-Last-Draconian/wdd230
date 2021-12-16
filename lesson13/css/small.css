@@ -391,7 +391,7 @@ footer a {
 /*-----attraction section rules-----*/
 section.attraction {
     background-color: #ff747448;
-    padding: 4%;
+    padding: 0;
     border: #ff7474 solid 5px;
 }
 
@@ -412,10 +412,7 @@ section.attraction figure {
 section.attraction img {
     width: 100%;
     padding: 0;
-    margin: 0;
-    border: #ffff5c solid 5px;
-    border-top-right-radius: 10%;
-    border-bottom-left-radius: 10%;
+    margin: 0 auto;
 }
 
 section.attraction figcaption {
@@ -425,7 +422,7 @@ section.attraction figcaption {
 
 section.attraction a {
     display: block;
-    margin-top: 4%;
+    margin: 4%;
     color: #a11c1c
 }
 
@@ -453,6 +450,48 @@ section#directions ul li a:hover {
 }
 
 
+/*DIRECTORY RULES DIRECTORY RULES DIRECTORY RULES DIRECTORY RULES DIRECTORY RULES DIRECTORY RULES DIRECTORY RULES*/
+
+#directory div {
+    display: block;
+    margin-bottom: 10%;
+    padding: 4%;
+    border-top-right-radius: 20%;
+}
+
+#directory div h3 {
+    font-family: "Cinzel Decorative", cursive;
+    font-size: 1rem;
+}
+
+#directory div a {
+    display: block;
+    color: #a11c1c;
+}
+
+#directory div.non-profit {
+    background-color: #53e71848;
+    border: #53e718 solid 5px;
+}
+
+#directory div.bronze {
+    background-color: #a11c1c48;
+    border: #a11c1c solid 5px;
+}
+
+#directory div.silver {
+    background-color: #ffffff;
+    border: #cccccc solid 5px;
+}
+
+#directory div.gold {
+    background-color: #ffff5c48;
+    border: #ffff5c solid 5px;
+}
+
+
+
+
 
 /*JOIN RULES JOIN RULES JOIN RULES JOIN RULES JOIN RULES JOIN RULES JOIN RULES JOIN RULES JOIN RULES*/
 
@@ -460,7 +499,7 @@ form fieldset {
     margin: 2rem 0;
     border: 5px solid #53e718;
     background-color: #53e71848;
-    padding: .5rem 4%;
+    padding: 4%;
 }
 
 form legend {
@@ -503,16 +542,8 @@ form label.top input, form label.top select {
 
 form label.sbs {
     display: block;
-    padding: .75rem;
-    color: #071339;
-}
-
-form textarea {
-    display: block;
-    margin-top: .5rem;
-    width: 100%;
-    height: 10rem;
-    max-width: 20rem;
+    padding: 4%;
+    color: black;
 }
 
 form input.submitButton {
@@ -537,11 +568,38 @@ form input.submitButton:hover {
 
 
 /*CONTACT RULES CONTACT RULES CONTACT RULES CONTACT RULES CONTACT RULES CONTACT RULES CONTACT RULES CONTACT RULES*/
-
+/*-----contact grid rules-----*/
 #iframe {
     text-align: center;
 }
 
 #iframe figure iframe {
     width: 100%;
+}
+
+/*-------board of directors rules-----*/
+#directors {
+    background-color: #ffff5c48;
+    padding: 2%;
+    border: 5px #ffff5c solid;
+}
+
+#directors ul li {
+    padding: 2%;
+    font-family: "Cinzel Decorative";
+    font-weight: bold;
+    font-size: 1rem;
+    list-style-type: none;
+}
+
+
+
+/*------form rules------*/
+
+form textarea {
+    display: block;
+    margin-top: .5rem;
+    width: 100%;
+    height: 200px;
+    max-width: 600px;
 }

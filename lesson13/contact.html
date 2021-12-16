@@ -30,8 +30,12 @@
         </nav>
         <!--change this!-->
         <div class="home-hero">
-            <!--Add a picture or figure tag!-->
-            <img src="#" alt="home page hero image">
+            <figure>
+                <img src="images/hero/hero.original.jpg" alt="home page hero image" sizes="100w"
+                    srcset="images/hero/hero.500.jpg 200w,
+                            images/hero/hero.1000.jpg 500w,
+                            images/hero/hero.1500.jpg 1000w">
+            </figure>
             <div class="div-1">
                 <h1>Ciao, Italia!</h1>
             </div>
@@ -39,19 +43,31 @@
         </div>
     </header>
     <main>
-        
-        <section id="contact">
-            <p>Via Castello 92
-                <br>33070 Budoia PN</p>
-             <p>+39 (123)-456-7890</p>
-             <p>cichamber@ciaoitaly.com</p>
-        </section>
+        <div id="contact-grid">
+            <section id="contact">
+                <p>Via Castello 92
+                    <br>33070 Budoia PN</p>
+                <p>+39 (123)-456-7890</p>
+                <p>cichamber@ciaoitaly.com</p>
+            </section>
+            <section id="iframe">
+                <figure>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d295694.8087510115!2d12.534293723220628!3d46.088717233909875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4779783d9294db81%3A0x307098715908330!2sProvince%20of%20Pordenone!5e0!3m2!1sen!2sit!4v1639603269121!5m2!1sen!2sit" width="600" height="450" style="border:0;" loading="lazy"></iframe>
+                </figure>
+            </section>
+        </div>
 
-
-        <section id="iframe">
-            <figure>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d295694.8087510115!2d12.534293723220628!3d46.088717233909875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4779783d9294db81%3A0x307098715908330!2sProvince%20of%20Pordenone!5e0!3m2!1sen!2sit!4v1639603269121!5m2!1sen!2sit" width="600" height="450" style="border:0;" loading="lazy"></iframe>
-             </figure>
+        <h2>Board of Directors</h2>
+        <section id="directors">
+            <ul>
+                <li>Harriet Day</li>
+                <li>Giada Giovani</li>
+                <li>Hector Zeroni</li>
+                <li>Joseppe Sarduey</li>
+                <li>Zachary Taylor</li>
+                <li>George A. Smith</li>
+                <li>Paulina Sanchez</li>
+            </ul>
         </section>
 
 

@@ -1,0 +1,262 @@
+@media only screen and (min-width: 32.5em) {
+
+/*HOME RULES HOME RULES HOME RULES HOME RULES HOME RULES HOME RULES HOME RULES HOME RULES */
+
+/*------body rules------*/
+
+/*----------nav rules-----------*/
+nav button {
+    display: none;
+}
+
+nav {
+    margin: 0 auto;
+}
+
+nav ul.hide {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    width: 100%;
+}
+
+
+
+
+
+/*-------header rules---------*/
+
+/*------hero image-------*/
+
+
+
+
+
+/*--------main rules---------*/
+
+main {
+    max-width: 1000px;
+}
+
+main h2 {
+    font-size: 40px;
+}
+
+main section {
+    margin-bottom: 200px;
+    font-size: 1.1rem;
+}
+
+/*------weather forecast rules-----*/
+
+#weather-forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+#weather-forecast div {
+    display: block;
+    
+}
+
+#weather-forecast h3 {
+    font-size: 2rem;
+}
+
+#weather-forecast div p {
+    font-size: 1rem;
+}
+
+#weather-forecast div p.temp {
+    font-size: 2rem;
+}
+
+
+
+/*------home images rules--------*/
+
+figure.home-img {
+    padding: 0 0 4% 0;
+    margin: 0 -2rem 0 -2rem;
+    margin-bottom: 20%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+figure.home-img img {
+    width: 100%;
+    border: none;
+    border-top: 10px solid #a11c1c;
+    
+}
+
+figure.home-img figcaption {
+    margin-top: 10px;
+}
+
+
+/*----------paragraph section Rules------*/
+
+
+
+
+/*-------restaurants section rules-------*/
+#restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#restaurants div {
+    display: block;
+    width: 300px;
+    margin: 5px;
+}
+
+#restaurants h3 {
+    font-size: 2rem;
+}
+
+#restaurants figcaption {
+    font-size: .5rem;
+    margin-top: 10px;
+}
+
+#restaurants a {
+    width: 60%;
+    font-size: 2.5rem;
+}
+
+/*-------upcoming events rules-----*/
+section.events ul li {
+    font-size: 1.2rem;
+}
+
+section.events span.date {
+    font-size: 2.5rem;
+}
+
+section.events p {
+    font-size: 1.3rem;
+}
+
+section.events p a {
+    font-size: 1.5rem;
+}
+
+
+
+/*------join-now paragraph rules---*/
+#join-now p {
+    font-size: 1.2rem;
+}
+
+#join-now a {
+    font-size: 2.5rem;
+}
+
+
+
+/*-----contact rules-----*/
+#contact {
+    font-size: 1.5rem;
+}
+
+
+/*----footer rules----*/
+
+
+
+/*CITY RULES CITY RULES CITY RULES CITY RULES CITY RULES CITY RULES CITY RULES CITY RULES CITY RULES CITY RULES*/
+
+/*-----attraction section rules-----*/
+section.attraction img {
+    max-width: 800px;
+}
+
+section.attraction figcaption {
+    margin-top: 10px;
+}
+
+section.attraction a {
+    font-size: 1.3rem;
+}
+
+
+/*---------more sites section rules---------*/
+section#directions {
+    max-width: 600px;
+}
+
+section#directions ul li a {
+    font-size: 1.3rem;
+}
+
+
+
+/*DIRECTORY RULES DIRECTORY RULES DIRECTORY RULES DIRECTORY RULES DIRECTORY RULES DIRECTORY RULES DIRECTORY RULES*/
+
+#directory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#directory div {
+    display: block;
+    width: 200px;
+    margin: 10px;
+}
+
+#directory div h3 {
+    font-size: 1.2rem;
+}
+
+
+
+
+/*JOIN RULES JOIN RULES JOIN RULES JOIN RULES JOIN RULES JOIN RULES JOIN RULES JOIN RULES JOIN RULES*/
+
+form fieldset {
+    max-width: 600px;
+}
+
+form input.submitButton {
+    font-size: 2.7rem;
+}
+
+
+
+
+/*CONTACT RULES CONTACT RULES CONTACT RULES CONTACT RULES CONTACT RULES CONTACT RULES CONTACT RULES CONTACT RULES*/
+/*-----contact grid rules-----*/
+
+
+/*-------board of directors rules-----*/
+#directors {
+    max-width: 800px;
+}
+
+#directors ul li {
+    font-size: 1.5rem;
+}
+
+
+
+/*------form rules------*/
+
+form textarea {
+    max-width: 800px;
+}
+
+
+
+
+
+}
